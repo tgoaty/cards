@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your heroes</title>
+	<link href="./style/styles.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="content">
+		<h1>The list of your heroes</h1>
+		<div id="heroesContainer">
+			<div class="card">
+				<p class="name"><strong class="blow">Name: </strong>Axe</p>
+				<p class="class"><strong class="blow">Class: </strong>Tank</p>
+			</div>
+			<div class="card">
+				<p class="name"><strong class="blow">Name: </strong>Crystal Maiden</p>
+				<p class="class"><strong class="blow">Class: </strong>Support</p>
+			</div>
+		</div>
+		<div class="input">
+			<button id="removeButton">REMOVE</button>
+			<input type="text" maxlength="16" id="heroName" placeholder="Name of hero">
+			<input type="text" maxlength="16" id="heroClass" placeholder="Class of hero">
+			<button id="addButton">ADD</button>
+		</div>
+	</div>
+
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
